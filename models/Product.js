@@ -33,17 +33,13 @@ const productSchema = new mongoose.Schema({
         type: Number,
         required: false,
     },
-    hasWholesale: {
-        type: Boolean,
-        required: true,
-    },
     wholeMinQuan: {
         type: Number,
-        required: false,
+        required: true,
     },
     wholePrice: {
         type: Number,
-        required: false,
+        required: true,
     },
     isFeatured: {
         type: Boolean,
